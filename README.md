@@ -30,7 +30,7 @@ Simply open `index.html` in your browser to view the site locally.
 
 2. **Build Settings**:
    - **Framework preset**: None (static site)
-   - **Build command**: (leave empty)
+   - **Build command**: `npm run build`
    - **Build output directory**: `/` (root directory)
    - **Root directory**: `/` (root directory)
 
@@ -39,6 +39,8 @@ Simply open `index.html` in your browser to view the site locally.
 4. **Custom Domain** (optional):
    - Add your custom domain in the Cloudflare Pages settings
    - Update DNS records as instructed
+
+**Important**: Make sure your repository includes the built `output.css` file, or Cloudflare Pages will build it automatically using the npm build command.
 
 ## Site Sections
 
