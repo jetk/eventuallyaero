@@ -1,12 +1,14 @@
 {
   "name": "eventually-aerospace",
   "version": "1.0.0",
-  "description": "Eventually Aerospace landing site",
+  "description": "Eventually Aerospace landing site - static site for Cloudflare Pages",
   "scripts": {
-    "build-css": "tailwindcss -i ./src/input.css -o ./output.css --watch",
-    "build": "tailwindcss -i ./src/input.css -o ./output.css --minify"
+    "build": "tailwindcss -i ./src/input.css -o ./output.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./output.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.0"
-  }
+  },
+  "keywords": ["static-site", "cloudflare-pages", "tailwindcss"],
+  "private": true
 }
